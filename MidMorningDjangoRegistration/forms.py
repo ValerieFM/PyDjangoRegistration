@@ -11,11 +11,3 @@ class UserRegistrationForm(UserCreationForm):
         fields = ['username', 'email', 'password1', 'password2']
 
 
-class SupplierRegistrationForm(forms.Form):
-    supplier_name = forms.CharField(max_length=30)
-    supplier_email = forms.EmailField(max_length=30)
-    supplier_password = forms.CharField(max_length=30)
-    product_name = forms.CharField(max_length=30)
-
-    def save(self):
-        pass

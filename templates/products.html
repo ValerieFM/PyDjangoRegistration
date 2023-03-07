@@ -15,8 +15,8 @@
             <td>{{ product.prod_name }}</td>
             <td>{{ product.prod_quantity }}</td>
             <td>{{ product.prod_price }}</td>
-            <td><a href="">Delete</a></td>
-            <td><a href="">Update</a></td>
+            <td><a href="/delete-product/{{ product.id }}">Delete</a></td>
+            <td><a href="/update-product/{{ product.id }}">Update</a></td>
           </tr>
         {% endfor %}
       </table>

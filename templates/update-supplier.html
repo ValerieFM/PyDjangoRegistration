@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load crispy_forms_filters %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <section class="form-section">
+        <div class="form-section-container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h1 class="text-dark text-center">Update Supplier</h1>
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_name }}" class="form-control" name="jina" type="text" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_email }}" class="form-control" name="baruameme" type="text" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_phone }}" class="form-control" name="simu" type="text" placeholder="Enter phone number">
+                        </div>
+                        <div class="form-group">
+                            <input value="{{ supplier.sup_product }}" class="form-control" name="bidhaa" type="text" placeholder="Enter product">
+                        </div>
+                        <div class="form-group">
+                            <input class="btn btn-info" type="submit" value="Save">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

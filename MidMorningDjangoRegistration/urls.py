@@ -26,5 +26,10 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(template_name='logout.html'), name='logout'),
     path('add-product/', general_views.add_product, name='add-product'),
     path('products/', general_views.view_products, name='products'),
-    path('supplier/', general_views.view_supplier, name='supplier')
+    path('delete-product/<id>', general_views.delete_product, name='delete-product'),
+    path('update-product/<id>', general_views.update_product, name='update-product'),
+    path('add-supplier/', general_views.add_supplier, name='add-supplier'),
+    path('suppliers/', general_views.view_suppliers, name='suppliers'),
+    path('delete-supplier/<id>', general_views.delete_supplier, name='delete-supplier'),
+    path('update-supplier/<id>', general_views.update_supplier, name='update-supplier'),
 ]
