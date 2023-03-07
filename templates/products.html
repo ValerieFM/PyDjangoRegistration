@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="row">
+    <div class="col-12">
+      <table class="table">
+        <tr>
+          <th>Home</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Delete</th>
+          <th>Update</th>
+        </tr>
+        {% for product in products %}
+          <tr>
+            <td>{{ product.prod_name }}</td>
+            <td>{{ product.prod_quantity }}</td>
+            <td>{{ product.prod_price }}</td>
+            <td><a href="">Delete</a></td>
+            <td><a href="">Update</a></td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+{% endblock %}
