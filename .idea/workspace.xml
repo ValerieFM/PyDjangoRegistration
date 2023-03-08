@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b338ca8f-500c-4e3e-a072-e117ae4bc145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MidMorningDjangoRegistration/migrations/0002_supplier_delete_products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/suppliers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/update-product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/update-supplier.html" afterDir="false" />
+    <list default="true" id="b338ca8f-500c-4e3e-a072-e117ae4bc145" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidMorningDjangoRegistration/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/MidMorningDjangoRegistration/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidMorningDjangoRegistration/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MidMorningDjangoRegistration/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidMorningDjangoRegistration/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MidMorningDjangoRegistration/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidMorningDjangoRegistration/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MidMorningDjangoRegistration/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/supplier.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add-supplier.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +90,16 @@
       <workItem from="1678096976474" duration="54000" />
       <workItem from="1678097451393" duration="1199000" />
       <workItem from="1678176165889" duration="920000" />
-      <workItem from="1678177215664" duration="7580000" />
+      <workItem from="1678177215664" duration="7899000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1678185066727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185066727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
