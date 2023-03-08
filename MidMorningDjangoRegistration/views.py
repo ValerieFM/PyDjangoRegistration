@@ -145,3 +145,9 @@ def update_supplier(request, id):
         return redirect('suppliers')
     return render(request, 'update-supplier.html', {'supplier': supplier})
 
+
+@login_required()
+def payment(request, id):
+    # Select the product to be paid
+    product = Product.objects.get(id=id)
+    return render(request, 'payment.html', {'product': product})
